@@ -12,6 +12,21 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Yarn 4 files to ignore
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Yarn state files
+.yarnrc.yml
+.pnp.*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
 
 # environment variables
 .env
