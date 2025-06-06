@@ -1,0 +1,71 @@
+html {
+    background-color: #303031;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    line-height: 1.5rem;
+  }
+
+body {
+  margin: 0;
+  
+}
+
+h1 {
+  margin-left: 0;
+}
+
+p {
+  width: 90%;
+}
+
+.logo_background {
+  margin-left: 0px;
+  margin-bottom: 1rem;
+
+  height: auto;
+  background-image: url("/src/assets/logo_background.png");
+  background-repeat: repeat;
+  background-size: 4vw;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  max-width: 80%;
+}
+
+.chapter {
+  background-color: #ffd86e;
+  font-weight: bolder;
+  font-style: italic;
+
+  height: max-content;
+}
+
+.chapter .title {
+  margin-left: 10%;
+}
+
+.content {
+  margin-left: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .demoreel {
+  
+  height: auto;
+  width: 90%;
+  border-color: #a4c3a3;
+  border-radius: 10%;
+}
